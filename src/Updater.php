@@ -14,6 +14,8 @@ class Updater
     public function setPluginFilePath($path)
     {
         $this->path = $path;
+
+        return $this;
     }
 
     public function setVersion($version)
@@ -26,6 +28,8 @@ class Updater
     public function setLicenseKey($licenseKey)
     {
         $this->licenseKey = $licenseKey;
+
+        return $this;
     }
 
     public function setHostUrl($hostUrl)
