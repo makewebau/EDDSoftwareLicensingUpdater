@@ -22,9 +22,9 @@ You will also need to have a server running an instance of [Easy Digital Downloa
 
 ## Usage
 
-Make sure you're including the composer autoloader:
+Make sure you're including the composer autoloader in your main plugin file:
 
-`require (__DIR__.'/vendor/autload.php');`
+`require (__DIR__.'/vendor/autoload.php');`
 
 This tells PHP where to look for the classes which the package requires so you don't have to write `include`/`require` statements for every php file.
 
